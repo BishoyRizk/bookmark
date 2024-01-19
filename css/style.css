@@ -1,0 +1,123 @@
+body{
+    background-color: #F7ECDE;
+    
+}
+
+
+
+
+.container  h1 {
+    position: relative !important;
+    font-family: 'Pacifico', cursive;
+    z-index: 2;
+    display: inline-block;
+}
+ .container  h1::after{
+ content: "";
+ width: 100%;
+ height: 25px;
+ position: absolute;
+ top: 25px;
+ left: 0;
+ /* background:linear-gradient(#fec16097);
+  */
+  
+  background-color: #fec16097;
+ z-index: -1;
+ transition: all 1s;
+
+}
+
+
+.container  h1:hover::after {
+    top: 5px;
+    height: 100%;
+    
+}
+
+
+
+.second i {
+    font-size: 25px;
+}
+
+.second {
+    border-top: dashed;
+    
+}
+
+
+h2 span {
+    color: #B1AC49;
+}
+
+.fav {
+    color: #B1AC49;
+}
+ .borderdashed button {
+    width: 140px;
+}
+
+
+.borderdashed {
+    border-bottom: dashed;
+}
+
+
+.demo {
+    border: none !important;
+}
+
+
+.first{
+width: 20px;
+height: 20px;
+background-color: red;
+border-radius: 50%;
+}
+
+.secondd{
+    width: 20px;
+    height: 20px;
+    background-color: yellow;
+    border-radius: 50%;
+    margin-left: 4px
+} 
+
+.thirdd{
+    width: 20px;
+    height: 20px;
+    background-color: green;
+    border-radius: 50%;
+    margin-left: 4px;
+}
+
+h1::selection {
+    color: #fec16097;
+}
+
+
+th::selection {
+    color: #fec16097;
+    /* background-color: #fec16097; */
+}
+
+label::selection {
+    color: #fec16097;
+}
+
+i::selection{
+    color: #fec16097;
+}
+
+
+/* input{
+    border: none;
+    border-radius: 10px;
+} */
+/* input:focus {
+    outline: none;
+    border: 1px solid #fec16097;
+    box-shadow: 0 0 0 0.25rem  #fec16097;
+} */
+
